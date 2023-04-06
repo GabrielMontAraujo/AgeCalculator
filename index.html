@@ -7,11 +7,24 @@
   <body>
     <h1>Calculadora de Idade</h1>
     <form>
-      <label>Data de Nascimento:</label>
+      <h2>Data de Nascimento:</h2>
       <input type="date" id="birthdate" name="birthdate" />
       <button type="button" onclick="calculateAge()">Calcular Idade</button>
     </form>
-    <div id="result"></div>
+    <div id="result">
+      <ul>
+        <label for="" id="anos">00</label>
+        <label for="" class="anoMesDia">Anos</label>
+      </ul>
+      <ul>
+        <label for="" id="meses">00</label>
+        <label for="" class="anoMesDia">Meses</label>
+      </ul>
+      <ul>
+        <label for="" id="dias">00</label>
+        <label for="" class="anoMesDia">Dias</label>
+      </ul>
+    </div>
 
     <script src="script.js"></script>
   </body>
